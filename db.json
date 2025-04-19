@@ -1,0 +1,292 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "pawan balla",
+      "email": "baluangular225@gmail.com",
+      "website": "Capgemini",
+      "password": "pawan@123"
+    },
+    {
+      "id": 2,
+      "name": "capgemini",
+      "email": "capgemini225@gmail.com",
+      "website": "Capgemini.com",
+      "password": "capgemini@123"
+    },
+    {
+      "id": "6e8f",
+      "name": "Neelima",
+      "email": "neelima.s@capgemini.com",
+      "website": "neelima.co.in",
+      "password": "Neelima@123"
+    },
+    {
+      "id": "7370",
+      "name": "React My Life",
+      "email": "baluangular225@gmail.com",
+      "website": "Capgemin.com"
+    },
+    {
+      "id": "0fd2",
+      "name": "React",
+      "email": "react.org@capgemini.com",
+      "website": "react.org"
+    },
+    {
+      "id": "fc79",
+      "name": "React My Life",
+      "email": "baluangular225@gmail.com",
+      "website": "balunaidu.org"
+    },
+    {
+      "id": "7c03",
+      "name": "Balu Naidu",
+      "email": "balunaidu@capgemini.com",
+      "website": "balunaidu.org"
+    },
+    {
+      "id": "9461",
+      "name": "React My Life",
+      "email": "baluangular225@gmail.com",
+      "website": "react.org"
+    },
+    {
+      "id": "8d00",
+      "name": "Hello React",
+      "email": "helloreact@gmail.com",
+      "website": "hello.org"
+    },
+    {
+      "id": "8760",
+      "name": "Balu React",
+      "email": "react.123@gmail.com",
+      "website": "Capgemini.com"
+    },
+    {
+      "id": "2e36",
+      "name": "Balu React",
+      "email": "capgemini225@gmail.com",
+      "website": "balu.org"
+    },
+    {
+      "id": "7cb2",
+      "name": "React My Life",
+      "email": "react.123@gmail.com",
+      "website": "reducx.org"
+    },
+    {
+      "id": "6f67",
+      "name": "React My Life",
+      "email": "baluangular225@gmail.com",
+      "website": "balu.org",
+      "password": "Balu@225"
+    },
+    {
+      "id": "d2af",
+      "name": "React Power Full JS",
+      "email": "react.123@gmail.com",
+      "website": "react.org",
+      "password": "React@$123"
+    },
+    {
+      "id": "aa8b",
+      "name": "React Balu",
+      "email": "reactbaluballa@gmail.com",
+      "website": "www.reactballa.com"
+    },
+    {
+      "id": "ef9d",
+      "name": "NewData",
+      "email": "newdata123@gmail.com",
+      "website": "www.newdata.com"
+    },
+    {
+      "id": "1ea4",
+      "name": "React My Life",
+      "email": "baluangular225@gmail.com",
+      "website": "react.org"
+    },
+    {
+      "id": "7841",
+      "name": "React Redux",
+      "email": "reactredux123@gmail.com",
+      "website": "redux.co.in"
+    },
+    {
+      "id": "fa72",
+      "name": "Hello",
+      "email": "baluangular225@gmail.com",
+      "website": "Capgemini.com"
+    },
+    {
+      "id": "5acf",
+      "name": "Balu React",
+      "email": "capgemini225@gmail.com",
+      "website": "balu.org"
+    },
+    {
+      "id": "75d6",
+      "name": "Hello React",
+      "email": "react.123@gmail.com",
+      "website": "react.org"
+    },
+    {
+      "id": "ad73",
+      "name": "Balu React",
+      "email": "balureact225@gmail.com",
+      "website": "balu.co.in"
+    },
+    {
+      "id": "392e",
+      "name": "Hello React",
+      "email": "capgemini225@gmail.com",
+      "website": "React.org"
+    },
+    {
+      "id": "7b2a",
+      "name": "Balu React",
+      "email": "baluangular225@gmail.com",
+      "website": "balu.co.in"
+    },
+    {
+      "id": "3ec3",
+      "name": "React Pratice",
+      "email": "reactpratice@gmail.com",
+      "website": "balu.org"
+    },
+    {
+      "id": "b821",
+      "name": "React My Life",
+      "email": "Shanna@melissa.tv",
+      "website": "react.org"
+    },
+    {
+      "id": "906e",
+      "name": "React World",
+      "email": "neelima.s@capgemini.com",
+      "website": "anastasia.net"
+    },
+    {
+      "id": "1a8c",
+      "name": "Balla Balu",
+      "email": "ballabalu123@gmail.com",
+      "password": "Balla@123",
+      "website": "balla.co.in"
+    }
+  ],
+  "Employes": [
+    {
+      "month": "January",
+      "dataset1": 200,
+      "dataset2": 300,
+      "dataset3": 400,
+      "id": "3e9b"
+    },
+    {
+      "month": "February",
+      "dataset1": 150,
+      "dataset2": 250,
+      "dataset3": 350,
+      "id": "54b2"
+    },
+    {
+      "month": "March",
+      "dataset1": 180,
+      "dataset2": 270,
+      "dataset3": 380,
+      "id": "e77d"
+    },
+    {
+      "month": "April",
+      "dataset1": 220,
+      "dataset2": 320,
+      "dataset3": 430,
+      "id": "01e4"
+    },
+    {
+      "month": "May",
+      "dataset1": 210,
+      "dataset2": 310,
+      "dataset3": 420,
+      "id": "eb6a"
+    },
+    {
+      "month": "June",
+      "dataset1": 230,
+      "dataset2": 330,
+      "dataset3": 440,
+      "id": "9d8d"
+    },
+    {
+      "month": "July",
+      "dataset1": 240,
+      "dataset2": 340,
+      "dataset3": 450,
+      "id": "07bc"
+    },
+    {
+      "month": "August",
+      "dataset1": 250,
+      "dataset2": 350,
+      "dataset3": 460,
+      "id": "7758"
+    },
+    {
+      "month": "September",
+      "dataset1": 260,
+      "dataset2": 360,
+      "dataset3": 470,
+      "id": "513a"
+    },
+    {
+      "month": "October",
+      "dataset1": 270,
+      "dataset2": 370,
+      "dataset3": 480,
+      "id": "7d38"
+    },
+    {
+      "id": "d8de",
+      "month": "November",
+      "dataset1": "411",
+      "dataset2": "394",
+      "dataset3": "423"
+    },
+    {
+      "id": "70d9",
+      "month": "December",
+      "dataset1": "111",
+      "dataset2": "345",
+      "dataset3": "142"
+    }
+  ],
+  "Posts": [
+    {
+      "title": "Your Title Here",
+      "url": "http://example.com",
+      "thumbnailUrl": "http://example.com/thumbnail.jpg",
+      "id": "2caa"
+    },
+    {
+      "id": "76e3",
+      "title": "Balu Naidu",
+      "url": "www.react.org",
+      "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+    }
+  ],
+  "Admin": [
+    {
+      "id": 1,
+      "name": "User 1",
+      "email": "user1@example.com",
+      "website": "https://example.com"
+    },
+    {
+      "id": 2,
+      "name": "User 2",
+      "email": "user2@example.com",
+      "website": "https://example.com"
+    }
+  ]
+}
