@@ -1,0 +1,43 @@
+import { useActionState } from "react";
+import { useFormStatus } from "react-dom";
+
+const handleSubmit = async (prevState, formData) => {
+  try {
+    await new Promise(resolve => setTimeout(resolve, 2000)); // Simulate delay
+    console.log(formData.get("name"), formData.get("age"));
+    // throw new Error("Invalid API"); // Uncomment to simulate an error
+    return "Submitted!";
+  } catch (error) {
+    return error.message;
+  }
+};
+
+function SubmitButton() {
+  const { pending } = useFormStatus();
+
+  return (
+    <button disabled={pending}>
+      {pending ? "Submitting..." : "Submit"}
+    </button>
+  );
+}
+
+export default function UserProfileAction() {
+  const [state, formAction] = useActionState(handleSubmit, null);
+
+  return (
+    <form action={formAction}>
+      <h1>User Form</h1>
+      <div>
+        <input type="text" placeholder="Enter name" name="name" />
+      </div>
+      <div>
+        <input type="text" placeholder="Enter age" name="age" />
+      </div>
+      <SubmitButton />
+      <div>
+        {state && <p>{state}</p>} {/* Show success or error message */}
+      </div>
+    </form>
+  );
+}

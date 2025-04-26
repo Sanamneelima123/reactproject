@@ -12,7 +12,7 @@ const Products = () => {
   const dispatch = useDispatch();
 
   // Access the state from Redux
-  const { myData , loading, error } = useSelector((state) => state.products);
+  const { myData, loading, error } = useSelector((state) => state.products);
 
   // Fetch products when the component mounts
   useEffect(() => {

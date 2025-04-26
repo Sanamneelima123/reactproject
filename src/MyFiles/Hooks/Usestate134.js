@@ -49,7 +49,7 @@ const Usestate134 = () => {
             });
             if(!response.ok){
                 const data = await response.json();
-                throw new Error(data.message);
+                throw new Error(data.message || 'Failed to Delete User');
             }
             setUserData(userData.filter(eachUser=> eachUser.id !== id));
         } catch (error) {

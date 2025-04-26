@@ -1,0 +1,33 @@
+import { Suspense, use, useState } from "react";
+
+const fetchTodos = async () => {
+await new Promise(resolve => setTimeout(resolve, 2000)); // <-- this is before fetch data show 2 seconds loading...
+  const responsive = await fetch("https://jsonplaceholder.typicode.com/todos");
+  const todos = await responsive.json();
+  return todos;
+};
+
+const Todos = ({ todosPromise }) => {
+  const todos = use(todosPromise);
+
+  return (
+    <>
+      {todos.map((todo, index) => (
+        <p key={index}>{todo.title}</p>
+      ))}
+    </>
+  );
+};
+
+export default function TodosWithUse() {
+  const [todosPromise] = useState(fetchTodos());
+
+  return (
+    <div>
+      <h1>2. Todos</h1>
+      <Suspense fallback={<h2>Loading...</h2>}>
+        <Todos todosPromise={todosPromise} />
+      </Suspense>
+    </div>
+  );
+}
