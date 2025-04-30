@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 import loader from "../../images/Loading-img.gif"
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Usestate136 = () =>{
 
  const URL="https://jsonplaceholder.typicode.com/users";
+
+ const navigator = useNavigate();
 
  const [userData, setUserData] = useState([]);
  const [error, setError] = useState({status:false, msg:''});
@@ -170,6 +172,7 @@ const Usestate136 = () =>{
                                         <button type="button" className="btn btn-primary rounded-0" onClick={()=> handleEdit(id, name, email, website, city)}>Edit</button>
                                         <button type="button" className="btn btn-danger rounded-0" onClick={()=> handleDelete(id)}>Delete</button>
                                         <NavLink className="btn btn-success rounded-0" to={`/Usestate136/${id}`}>Details</NavLink>
+                                        <button className="btn btn-warning rounded-0" onClick={()=> navigator(`/Usepost136`)}>Post</button>
                                     </div>
                                 </div>
                             </div>
